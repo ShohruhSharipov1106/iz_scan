@@ -2,7 +2,7 @@ group 'kz.izsolve.iz_scan'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext.kotlin_version = '1.9.10'
     repositories {
         google()
         mavenCentral()
@@ -29,7 +29,7 @@ android {
         namespace 'kz.izsolve.iz_scan'
     }
 
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -46,8 +46,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 21
-    }
+        minSdkVersion 24
 
     dependencies {
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
