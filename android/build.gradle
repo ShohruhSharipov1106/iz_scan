@@ -47,6 +47,7 @@ android {
 
     defaultConfig {
         minSdkVersion 24
+    }
 
     dependencies {
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
